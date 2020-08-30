@@ -5,8 +5,10 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Gridsome Portfolio Starter',
-  siteDescription: 'A simple portfolio theme for Gridsome powered by Tailwind CSS v1',
+  /* siteName: 'Gridsome Portfolio Starter',
+  siteDescription: 'A simple portfolio theme for Gridsome powered by Tailwind CSS v1', */
+  siteName: 'Kevin Rojas',
+  siteDescription: 'Este es un blog personal que tiene como objetivo brindar todo tipo de información referentes a proyectos y estudios',
   siteUrl: 'https://gridsome-portfolio-starter.netlify.com',
   plugins: [
     {
@@ -42,7 +44,8 @@ module.exports = {
       options: {
         contentTypeName: 'Post',
         feedOptions: {
-          title: 'Gridsome Portfolio Starter Blog',
+          title: 'Kevin Rojas',
+          //title: 'Gridsome Portfolio Starter Blog',
           feed_url: 'https://gridsome-portfolio-starter.netlify.com/rss.xml',
           site_url: 'https://gridsome-portfolio-starter.netlify.com/'
         },
